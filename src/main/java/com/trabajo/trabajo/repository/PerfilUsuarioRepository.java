@@ -1,0 +1,9 @@
+package com.trabajo.trabajo.repository;
+
+import com.trabajo.trabajo.model.PerfilUsuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PerfilUsuarioRepository extends JpaRepository<PerfilUsuario,Long>{
+}
